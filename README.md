@@ -86,7 +86,8 @@ All documents are written in Markdown with embedded Mermaid diagrams for maximum
 | Document | Type | Reading Time | Target Audience | Key Takeaways |
 |---|---|---|---|---|
 | [`docs/architecture.md`](docs/architecture.md) | Architecture | 60-90 min | Smart contract devs, protocol researchers | Route aggregation math, vault share-price mechanics, fee distribution cycle, TWAP calculation, cron job architecture — the complete "how the numbers work" reference |
-| [`docs/contracts.md`](docs/contracts.md) | API Reference | 45-60 min | Contract integrators, backend devs | Full function-level reference for all four Soroban contracts with parameters, return types, errors, and gas costs. Also summarized in [`yield-routes-contracts/README.md`](https://github.com/YOUR_ORG/yield-routes-contracts#contract-interfaces) |
+| [`docs/contracts.md`](docs/contracts.md) | API Reference | 45-60 min | Contract integrators, backend devs | Full function-level reference for all four Soroban contracts, cross-contract architecture call graphs, sequence diagrams, and gas costs |
+| [`docs/api/README.md`](docs/api/README.md) | Backend API | 30-45 min | Frontend devs, trading bot integrators | Comprehensive REST API reference across all 4 route groups: `/routes`, `/pools`, `/vault`, and `/oracle` with curl examples |
 | [`docs/guides/quickstart.md`](docs/guides/quickstart.md) | Tutorial | 30-45 min | New contributors, full-stack devs | End-to-end local setup walkthrough spanning all four code repos — database, backend API, frontend UI, and contract deployment |
 | [`docs/grantfox-application.md`](docs/grantfox-application.md) | Grant Application | 15-20 min | Ecosystem stakeholders, investors | GrantFox funding program application with milestones and deliverables. For broader ecosystem contribution narrative, see the [org homepage](https://github.com/YOUR_ORG/.github/blob/main/profile/README.md#why-this-matters-for-stellar) |
 
